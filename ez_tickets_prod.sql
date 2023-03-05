@@ -468,7 +468,7 @@ CREATE TABLE `otp_codes` (
 --
 
 INSERT INTO `otp_codes` (`user_id`, `email`, `OTP`, `expiration_datetime`) VALUES
-(10, 'arafaysaleem@gmail.com', '$2a$08$qEG2K154Ki4xZnxpVZ2znu3r.1rKutIRG57P4fBbxpvSBZXYSikM6', '2022-01-12 15:22:30');
+(10, 'ghosh@gmail.com', '$2a$08$qEG2K154Ki4xZnxpVZ2znu3r.1rKutIRG57P4fBbxpvSBZXYSikM6', '2022-01-12 15:22:30');
 
 -- --------------------------------------------------------
 
@@ -768,12 +768,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `full_name`, `email`, `password`, `address`, `contact`, `role`) VALUES
-(1, 'Test Admin', 'admin@gmail.com', '$2a$08$y4hYovfviz31AZhru3t4FObYrLFrhdBNETXikx6WFD9VYGbUZucYO', 'Karachi', '+923009999999', 'admin'),
-(2, 'Test User', 'user@gmail.com', '$2a$08$V5FWrXIoHeJPGe0WDgQcJ.eJEX.rz6tCtevaNSKBH6deaoVDKMosS', 'Karachi', '+923009999999', 'api_user'),
-(10, 'Email Test User', 'arafaysaleem@gmail.com', '$2a$08$36p1ozvvj/MEoHBBp5ZxY.f46YUg.wACpZ8W7/wA52qhAKvFUaxfu', 'Karachi', '+923009999999', 'api_user'),
-(11, 'Test User', 'user2@gmail.com', '$2a$08$dP89ppGNiMczZM0JToQwF.WtiR53NL0j.r55wBNJP03sjDh/VpcrC', 'Karachi', '+923009999999', 'api_user'),
-(14, 'Test User 3', 'user3@gmail.com', '$2a$08$hyIqip2MuwqbmkKIoiWG9eihI0HkAF0aB.3aWVUBO0YiBPIBawEDK', 'Karachi', '+923009999999', 'api_user'),
-(15, 'Delete Me', 'deleteme@eztickets.com', '$2a$08$lWgRO3U/XnZ3Etw0HQE4cOgCXsb/UDu3tYcRx.NzoIb6y96Cwa0ea', 'Re', '+923009268622', 'api_user');
+(1, 'Test Admin', 'admin@gmail.com', '$2a$08$y4hYovfviz31AZhru3t4FObYrLFrhdBNETXikx6WFD9VYGbUZucYO', 'Karachi', '+918527672265', 'admin'),
+(2, 'Test User', 'user@gmail.com', '$2a$08$V5FWrXIoHeJPGe0WDgQcJ.eJEX.rz6tCtevaNSKBH6deaoVDKMosS', 'Karachi', '+918527672265', 'api_user'),
+(10, 'Email Test User', 'ghosh@gmail.com', '$2a$08$36p1ozvvj/MEoHBBp5ZxY.f46YUg.wACpZ8W7/wA52qhAKvFUaxfu', 'Karachi', '+918527672265', 'api_user'),
+(11, 'Test User', 'user2@gmail.com', '$2a$08$dP89ppGNiMczZM0JToQwF.WtiR53NL0j.r55wBNJP03sjDh/VpcrC', 'Karachi', '+918527672265', 'api_user'),
+(14, 'Test User 3', 'user3@gmail.com', '$2a$08$hyIqip2MuwqbmkKIoiWG9eihI0HkAF0aB.3aWVUBO0YiBPIBawEDK', 'Karachi', '+918527672265', 'api_user'),
+(15, 'Delete Me', 'deleteme@eztickets.com', '$2a$08$lWgRO3U/XnZ3Etw0HQE4cOgCXsb/UDu3tYcRx.NzoIb6y96Cwa0ea', 'Re', '+918527672265', 'api_user');
 
 --
 -- Indexes for dumped tables
